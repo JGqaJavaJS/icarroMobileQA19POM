@@ -33,7 +33,7 @@ public class AppiumConfig {
 
 
         capabilities.setCapability("app", "/Users/julia/Tools/ilcarro-android.apk");
-
+        // for windows: C:\\Tools\\ilcarro-android.apk
         try {
             driver = new AppiumDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), capabilities);
         } catch (MalformedURLException e) {
