@@ -25,10 +25,4 @@ public class SplashPage extends BasePage{
         }
     }
 
-
-
-
-// resource-id
-    // com.telran.ilcarro:id/versionText
-
 }

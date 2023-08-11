@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import pages.SearchPage;
 import pages.SearchResultPage;
 
-public class SearchTests extends AppiumConfig {
+public class SearchTests extends BaseTest {
 
     String city = "Tel Aviv";
     int dayFrom = 4;
